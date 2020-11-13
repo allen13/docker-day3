@@ -27,6 +27,6 @@ func hello(w http.ResponseWriter, r *http.Request) {
 func main() {
 
     http.HandleFunc("/hello", hello)
-    log.Println("Starting server on 0.0.0.0:8090")
+    log.Println("Starting server on 0.0.0.0:8080")
     http.ListenAndServe(":8080", nil)
 }
