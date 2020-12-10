@@ -115,3 +115,17 @@ Read and understand what the golang code is doing for later reference See [hello
 command)
 * Make the hello endpoint say goodbye neighbor without changing the code
 * Explain the difference between CMD and ENTRYPOINT and how they work together
+
+docker 2 additional challenge
+-----------------------------
+
+Build the [docker alpine base image](https://github.com/alpinelinux/docker-alpine) locally on your machine.
+
+Learning Objectives
+* How are base images really created?
+* Where do all the directories come from in a base image?
+* What are the most important components of a base image?
+* Could building my own base images improve security?
+* Read and understand all the scripts that make the build possible. On Windows you will no be able to use the `prepare-branch.sh` script. Even if you are on Mac try to build the image without using the `prepare-branch.sh` script.
+
+
