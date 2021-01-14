@@ -111,7 +111,7 @@ Read and understand what the golang code is doing for later reference See [hello
 * Figure how to run it in detached mode
 * Watch the logs of your container
 * Make improvements to the dockerfile so that it is easier to run
-* Access the http endpoint in the browser http://localhost:8080/ (make sure you map the port in your run
+* Access the http endpoint in the browser http://localhost:8080/hello (make sure you map the port in your run
 command)
 * Make the hello endpoint say goodbye neighbor without changing the code
 * Explain the difference between CMD and ENTRYPOINT and how they work together
